@@ -27,7 +27,7 @@ function init() {
 };
 
 async function getCode(questCode) {
-  const Url = `generate`;//클라우드 타입 서버 주소 입력
+  const Url = `https://93c556fb-68b8-47d5-aca5-8a1e4c90cd0c-00-105jp2wuurdh.spock.replit.dev/generate`;//클라우드 타입 서버 주소 입력
   const Data = JSON.stringify({ userInput: questCode });   
   let response; 
     try {
